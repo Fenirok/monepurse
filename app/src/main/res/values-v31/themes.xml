@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Monepurse" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.MonePurseSplashScreen" parent="Theme.SplashScreen">
+        <item name="android:windowSplashScreenBackground">@color/white</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/monepurseicon</item>
+        <item name="postSplashScreenTheme">@style/Theme.Monepurse</item>
+    </style>
+</resources>
