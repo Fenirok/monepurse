@@ -4,7 +4,7 @@
 
     <style name="Theme.MonePurseSplashScreen" parent="Theme.SplashScreen">
         <item name="android:windowSplashScreenBackground">@color/white</item>
-        <item name="android:windowSplashScreenAnimatedIcon">@drawable/monepurseicon</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/monepurse_logo</item>
         <item name="postSplashScreenTheme">@style/Theme.Monepurse</item>
     </style>
 </resources>
